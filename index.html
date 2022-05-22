@@ -1,0 +1,39 @@
+<!-- source: https://www.theodinproject.com/lessons/foundations-html-boilerplate -->
+<!--source: https://www.theodinproject.com/lessons/foundations-working-with-text-->
+
+<!-- We should always name the HTML file that will contain the homepage of our websites index.html -->
+<!--This is because web servers will by default look for an index.html page when users land on our websites - and not having one will cause big problems.-->
+
+<!--Every HTML page starts with a doctype declaration-->
+<!--The doctype’s purpose is to tell the browser what version of HTML it should use to render the document.-->
+<!--The latest version of HTML is HTML5, and the doctype for that version is the following -->
+<!DOCTYPE html>
+
+<!--After we declare the doctype, we need to provide an <html> element. 
+    This is what’s known as the root element of the document, meaning that every other element in the document will be a descendant of it.-->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My First Webpage</title>
+        <link rel="icon" type="image/x-icon" href="../favicon.png"> <!--icône qui apparaît dans l'onglet-->
+    </head>
+
+    <!--The final element needed to complete the HTML boilerplate is the <body> element. 
+    This is where all the content that will be displayed to users will go - the text, images, lists, links, and so on.-->
+    <body>
+        <h1>Welcome everyone ! This is the biggest heading</h1>
+        <h2>This is a heading 2</h2>
+        <h3>This is a heading 3</h3>
+        <h4>This is a heading 4</h4>
+        <h5>This is a heading 5</h5>
+        <h6>This is a heading 6</h6>
+        <strong>This is a strong element</strong>
+        <p>not strong paragraph element |<strong> strong paragraph element </strong>
+        <p>This is an <em>emphasised</em> element</p>
+
+    </body>
+</html>
+
+<!--VSCode has a built-in shortcut you can use for generating all the boilerplate in one go.
+To trigger the shortcut, just enter ! and press the enter key to choose the first one, and voila, you should have all the boilerplate populated for you.-->
